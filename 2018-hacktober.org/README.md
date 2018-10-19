@@ -1,4 +1,4 @@
-# Hacktober
+# Hacktober 2018
 
 Registration Page: https://hostile.site/
 
