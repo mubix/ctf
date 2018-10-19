@@ -15,3 +15,6 @@ https://hacktoberquest.h4110w33n.com/
 
 ## Answer
 
+flag-BlingBlingBaby
+
+![](300_slay_the_evil_json.png)

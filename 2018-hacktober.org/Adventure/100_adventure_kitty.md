@@ -10,3 +10,8 @@ https://hacktoberquest.h4110w33n.com/
 
 ## Answer
 
+flag-NyanNyanNyanBOO
+
+![](100_adventure_kitty_game.png)
+
+![](100_adventure_kitty_json.png)

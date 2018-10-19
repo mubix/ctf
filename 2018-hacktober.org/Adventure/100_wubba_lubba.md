@@ -10,3 +10,6 @@ https://hacktoberquest.h4110w33n.com/
 
 ## Answer
 
+flag-NoPicklesHere
+
+![](100_wubba_lubba_json.png)
