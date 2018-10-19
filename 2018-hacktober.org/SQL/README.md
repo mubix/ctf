@@ -1,6 +1,6 @@
 # SQL
 
-All solutions can be found using the dump found here: [mysql.dump.txt](files/mysql.dump.txt)
+All solutions can be found using the dump found here: [mysql.sql](files/mysql.sql)
 
 - [20 Points - Tables](020_tables.md)
 - [25 Points - Roll Call](025_roll_call.md)
