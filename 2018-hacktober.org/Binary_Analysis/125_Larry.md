@@ -12,3 +12,6 @@ Local Copy of Binary - [Larry.out](Larry.out)
 
 ## Answer
 
+https://veteransec.com/2018/10/19/hacktober-ctf-2018-binary-analysis-larry/
+
+flag-You’re @ liz@ard, L@rry!
