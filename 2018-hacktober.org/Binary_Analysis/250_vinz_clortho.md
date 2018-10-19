@@ -6,6 +6,6 @@ They say Vinz Clortho is a Trickster of a KeyMaster. Can you find the flag and s
 
 https://goo.gl/a8FJYv
 
-Local Copy of Binary - [VinzClortho.zip](VinzClortho.zip)
+Local Copy of Binary - [VinzClortho.zip](binaries/VinzClortho.zip)
 
 ## Answer

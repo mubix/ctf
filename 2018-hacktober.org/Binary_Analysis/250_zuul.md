@@ -6,6 +6,6 @@ They say Zuul is a hound of deception, but driven only by his search for the Key
 
 https://goo.gl/wHviSM
 
-Local Copy of Binary - [Zuul.zip](Zuul.zip)
+Local Copy of Binary - [Zuul.zip](binaries/Zuul.zip)
 
 ## Answer
