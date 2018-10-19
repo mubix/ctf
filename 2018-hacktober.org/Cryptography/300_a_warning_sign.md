@@ -16,6 +16,8 @@ Decoded message will not be in the format "flag-XXXX" but you can submit it eith
 
 ## Answer
 
+Make the plug board "re do it by" and all of the rotors and positions to 1
+
 ballo onsfr omthe sewer
 
 or
