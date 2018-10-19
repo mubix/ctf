@@ -2,6 +2,10 @@
 
 All solutions can be found using the dump found here: [mysql.sql](files/mysql.sql)
 
+Dumped using the command:
+`mysqldump -h 104.248.119.92 -u westridge -P 666 --password=123456789 --all-databases --single-transaction > mysql.sql`
+
+
 - [20 Points - Tables](020_tables.md)
 - [25 Points - Roll Call](025_roll_call.md)
 - [25 Points - Primary Key](025_primary_key.md)
