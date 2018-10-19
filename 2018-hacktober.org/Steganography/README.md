@@ -9,5 +9,3 @@
 - [300 Points - Ghost in the Picture](300_ghost_in_the_picture.md)
 - [300 Points - Who's a good dog?](300_whos_a_good_dog.md)
 - [450 Points - Scary Stories](450_scary_stories.md)
-
-./snow -C -p "Halloween Candy" fldhRSuIoxUnxbf9XjpXZR6gg5wcgODc.txt
