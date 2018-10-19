@@ -17,4 +17,12 @@ https://hacktoberquest.h4110w33n.com/
 
 flag-BlingBlingBaby
 
+![](images/300_slay_the_evil_boss.png)
+
+![](images/300_slay_the_evil_win.png)
+
+![](images/300_slay_the_evil_prizes.png)
+
+![](images/300_slay_the_evil_flag.png)
+
 ![](images/300_slay_the_evil_json.png)
