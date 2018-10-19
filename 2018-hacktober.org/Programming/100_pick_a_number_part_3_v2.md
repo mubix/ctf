@@ -8,6 +8,6 @@ Best of luck.
 
 (Identical to Pick a Number Part 3, but adds a brief delay between submission and response)
 
-numbersinatardis.h4110w33n.com
+https://numbersinatardis.h4110w33n.com
 
 ## Answer

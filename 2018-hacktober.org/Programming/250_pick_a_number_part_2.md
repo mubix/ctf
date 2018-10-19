@@ -6,6 +6,6 @@ Perhaps that first one was too easy.
 
 Time to pick some more numbers. Let's see if you can come out on otp of this challenge.
 
-picksomemorenumbers.h4110w33n.com
+https://picksomemorenumbers.h4110w33n.com
 
 ## Answer

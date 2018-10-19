@@ -8,7 +8,7 @@ Time to pick some more numbers. Let's see if you can come out on otp of this cha
 
 (Identical to Pick a Number Part 2, but adds a brief delay between submission and response)
 
-pickdifferentnumbers.h4110w33n.com
+https://pickdifferentnumbers.h4110w33n.com
 
 ## Answer
 
