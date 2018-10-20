@@ -11,3 +11,5 @@ Best of luck.
 https://numbersinatardis.h4110w33n.com
 
 ## Answer
+
+- [Solution](files/numbersinatardis.h4110w33n.com/numbersintardis.py)
