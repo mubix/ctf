@@ -10,3 +10,5 @@ https://numbersthroughtime.h4110w33n.com
 
 
 ## Answer
+
+- [Solution by @kello711](files/numbersthroughtime.py)

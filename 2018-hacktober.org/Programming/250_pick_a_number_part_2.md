@@ -9,3 +9,5 @@ Time to pick some more numbers. Let's see if you can come out on otp of this cha
 https://picksomemorenumbers.h4110w33n.com
 
 ## Answer
+
+- [Solution by @kello711](files/picksomemorenumbers.py)
