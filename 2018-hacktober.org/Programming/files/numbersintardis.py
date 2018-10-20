@@ -1,6 +1,6 @@
 # Code by
 # Kelly Lehman
-# @r3curse
+# @r3curs3
 # 10/19/2018
 
 import pyotp

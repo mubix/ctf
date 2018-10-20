@@ -10,4 +10,4 @@ https://picksomemorenumbers.h4110w33n.com
 
 ## Answer
 
-- [Solution by @kello711](files/picksomemorenumbers.py)
+- [Solution by @r3curs3](files/picksomemorenumbers.py)

@@ -1,6 +1,6 @@
 # Pick a Number - Part 3
 
-## Points 
+## Points
 
 Numbers get weird when you mix them with a hellish time travel soup.
 
@@ -11,4 +11,4 @@ https://numbersthroughtime.h4110w33n.com
 
 ## Answer
 
-- [Solution by @kello711](files/numbersthroughtime.py)
+- [Solution by @r3curs3](files/numbersthroughtime.py)
