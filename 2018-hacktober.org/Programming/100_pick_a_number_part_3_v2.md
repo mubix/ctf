@@ -12,4 +12,4 @@ https://numbersinatardis.h4110w33n.com
 
 ## Answer
 
-- [Solution by @kello711](files/numbersintardis.py)
+- [Solution by @r3curs3](files/numbersintardis.py)

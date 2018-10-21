@@ -1,3 +1,8 @@
+# Code by
+# Kelly Lehman
+# @r3curs3
+# 10/19/2018
+
 import pyotp
 from datetime import datetime, date, timedelta
 import calendar
