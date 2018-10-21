@@ -4,7 +4,8 @@
 
 What is the handle of your favorite CTF Support Staff Member?
 
-
 ## Answer
 
-Any of the admins' names would work as a solution
+Any Administrator name, i.e. attackd0gz, syntax, oac
+
+@ https://hacktober-support.slack.com

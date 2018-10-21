@@ -12,7 +12,6 @@ Which of these is the best programming language for use in a CTF?
 - VBS
 - Ruby
 
-
 ## Answer
 
-Any answer would work
+Any Answer would work

@@ -6,3 +6,6 @@ What 3 word name of the non-profit that sponsors this CTF and helps get aspiring
 
 ## Answer
 
+Midwest Cyber Center
+
+@ https://www.eventbrite.com/e/ncsam-ctf-tickets-49715438214
