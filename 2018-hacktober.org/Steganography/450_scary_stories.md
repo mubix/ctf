@@ -21,3 +21,5 @@ $ ./snow -C -p "Halloween Candy" fldhRSuIoxUnxbf9XjpXZR6gg5wcgODc.txt
 
 I hid the flag in Devil Money.  I sent over about 10,000,000 tokens haha.
 ```
+
+Write up found here: https://veteransec.com/2018/10/18/vetsec-takes-first-in-the-hacktober-ctf-summary-steganography-write-up/

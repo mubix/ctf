@@ -11,3 +11,5 @@ https://hacktober.nyc3.digitaloceanspaces.com/wavy.wav
 Local Copy of File: [wavy.wav](files/wavy.wav)
 
 ## Answer
+
+Write up found here: https://veteransec.com/2018/10/18/vetsec-takes-first-in-the-hacktober-ctf-summary-steganography-write-up/

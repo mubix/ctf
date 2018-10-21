@@ -13,3 +13,5 @@ Local Copy of File:
 ![](files/ew1RgOPr8pr5D5D736ExAqxR57G1RTya.jpg)
 
 ## Answer
+
+Write up found here: https://veteransec.com/2018/10/18/vetsec-takes-first-in-the-hacktober-ctf-summary-steganography-write-up/
