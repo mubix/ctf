@@ -1,6 +1,6 @@
 # Pick a Number - Part 3
 
-## Points
+## Points 450
 
 Numbers get weird when you mix them with a hellish time travel soup.
 
