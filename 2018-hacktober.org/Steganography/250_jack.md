@@ -15,3 +15,5 @@ Local Copy of File:
 ![](files/jack.jpg)
 
 ## Answer
+
+Write up found here: https://veteransec.com/2018/10/18/vetsec-takes-first-in-the-hacktober-ctf-summary-steganography-write-up/

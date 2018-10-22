@@ -17,3 +17,5 @@ https://hacktober.nyc3.digitaloceanspaces.com/lbYZsZeyRVJHNg4evrzOo8z5EdYdVlP3.z
 Local Copy of File - [lbYZsZeyRVJHNg4evrzOo8z5EdYdVlP3.zip](files/lbYZsZeyRVJHNg4evrzOo8z5EdYdVlP3.zip)
 
 ## Answer
+
+Write up found here: https://veteransec.com/2018/10/18/vetsec-takes-first-in-the-hacktober-ctf-summary-steganography-write-up/
