@@ -4,5 +4,6 @@
 
 What year was the first NCSAM?
 
-
 ## Answer
+
+2004
