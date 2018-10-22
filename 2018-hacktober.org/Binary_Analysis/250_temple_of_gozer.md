@@ -10,5 +10,4 @@ Consult with the KeyMaster and the GateKeeper to find your path.
 
 (You get to break one of the CTF rules for this challenge. Look at you, rebel.)
 
-
 ## Answer
