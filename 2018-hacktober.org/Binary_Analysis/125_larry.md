@@ -12,6 +12,6 @@ Local copy - [Larry.out](bin/Larry.out)
 
 ## Answer
 
-https://veteransec.com/2018/10/19/hacktober-ctf-2018-binary-analysis-larry
+@ https://veteransec.com/2018/10/19/hacktober-ctf-2018-binary-analysis-larry
 
 flag-You’re @ liz@ard, L@rry!

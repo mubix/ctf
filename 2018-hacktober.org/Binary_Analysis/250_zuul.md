@@ -9,3 +9,5 @@ https://goo.gl/wHviSM
 Local copy - [Zuul.zip](bin/Zuul.zip)
 
 ## Answer
+
+reverse .NET Binary via [dnSpy](https://github.com/0xd4d/dnSpy/releases)
