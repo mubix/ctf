@@ -11,3 +11,10 @@ Using the westridge database, submit the first name of the student whose first n
 You are limited to 20 attempts.
 
 ## Answer
+
+* username + password from #pwn task:Cracked
+
+```
+$ mysql -h 104.248.119.92 -P 666 -u westridge -p123456789 westridge
+mysql>
+```
