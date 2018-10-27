@@ -13,9 +13,16 @@ You are limited to 10 attempts.
 
 ## Answer
 
-* username + password from #pwn task:Cracked
+73 World History I 47
+
+- login to database c.f. #sql task:Tables
 
 ```
-$ mysql -h 104.248.119.92 -P 666 -u westridge -p123456789 westridge
-mysql>
+mysql> SELECT CONCAT(enrollments.sessionID,' ',courses.courseName,' ',COUNT(studentID)) AS sessionID_courseName_num_students FROM enrollments JOIN sessions ON enrollments.sessionID = sessions.sessionID JOIN courses ON sessions.courseID = courses.courseID GROUP BY enrollments.sessionID ORDER BY COUNT(studentID) DESC,enrollID LIMIT 1;
++-----------------------------------+
+| sessionID_courseName_num_students |
++-----------------------------------+
+| 73 World History I 47             |
++-----------------------------------+
+1 row in set (0.27 sec)
 ```

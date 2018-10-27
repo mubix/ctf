@@ -10,10 +10,9 @@ You are limited to 10 attempts.
 
 396 Smith Street
 
-* username + password from #pwn task:Cracked
+- login to database c.f. #sql task:Tables
 
 ```
-$ mysql -h 104.248.119.92 -P 666 -u westridge -p123456789 westridge
 mysql> SELECT street FROM students WHERE firstName = 'Walter' AND lastName = 'Yu';
 +------------------+
 | street           |

@@ -13,9 +13,16 @@ You are limited to 10 attempts.
 
 ## Answer
 
-* username + password from #pwn task:Cracked
+Ray M. Gilmore
+
+- login to database c.f. #sql task:Tables
 
 ```
-$ mysql -h 104.248.119.92 -P 666 -u westridge -p123456789 westridge
-mysql>
+mysql> SELECT CONCAT(firstName,' ',middle,'. ',lastName) AS fullName FROM grades JOIN students ON grades.studentID = students.studentID GROUP BY grades.studentID ORDER BY SUM(grade_value) DESC,grades.studentID LIMIT 1;
++----------------+
+| fullName       |
++----------------+
+| Ray M. Gilmore |
++----------------+
+1 row in set (0.32 sec)
 ```

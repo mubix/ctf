@@ -8,9 +8,16 @@ You are limited to 10 attempts.
 
 ## Answer
 
-* username + password from #pwn task:Cracked
+SELECT COUNT(DISTINCT deptName) FROM departments;
+
+- login to database c.f. #sql task:Tables
 
 ```
-$ mysql -h 104.248.119.92 -P 666 -u westridge -p123456789 westridge
-mysql>
+mysql> select count(distinct deptName) from departments;
++--------------------------+
+| count(distinct deptName) |
++--------------------------+
+|                        8 |
++--------------------------+
+1 row in set (0.37 sec)
 ```

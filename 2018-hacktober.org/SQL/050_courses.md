@@ -8,9 +8,16 @@ You are limited to 10 attempts.
 
 ## Answer
 
-* username + password from #pwn task:Cracked
+32
+
+- login to database c.f. #sql task:Tables
 
 ```
-$ mysql -h 104.248.119.92 -P 666 -u westridge -p123456789 westridge
-mysql>
+mysql> SELECT COUNT(*) FROM courses;
++----------+
+| COUNT(*) |
++----------+
+|       32 |
++----------+
+1 row in set (0.23 sec)
 ```

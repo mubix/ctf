@@ -13,15 +13,14 @@ You are limited to 10 attempts.
 
 Shaniya F. Gould
 
-* username + password from #pwn task:Cracked
+- login to database c.f. #sql task:Tables
 
 ```
-$ mysql -h 104.248.119.92 -P 666 -u westridge -p123456789 westridge
-mysql> SELECT firstName,middle,lastName FROM students ORDER BY studentID DESC LIMIT 1;
-+-----------+--------+----------+
-| firstName | middle | lastName |
-+-----------+--------+----------+
-| Shaniya   | F      | Gould    |
-+-----------+--------+----------+
-1 row in set (0.48 sec)
+mysql> SELECT CONCAT(firstName,' ',middle,'. ',lastName) AS fullName FROM students ORDER BY studentID DESC LIMIT 1;
++------------------+
+| fullName         |
++------------------+
+| Shaniya F. Gould |
++------------------+
+1 row in set (0.44 sec)
 ```

@@ -15,7 +15,19 @@ You are limited to 5 attempts.
 * username + password from #pwn task:Cracked
 
 ```
-$ mysql -h 104.248.119.92 -P 666 -u westridge -p123456789 westridge
+$ mysql -h 104.248.119.92 -P 666 -u westridge -p123456789 -A westridge
+mysql: [Warning] Using a password on the command line interface can be insecure.
+```
+
+or
+
+```
+$ mysql_config_editor set --login-path=hacktober2018 --host=104.248.119.92 --port=666 --user=westridge --password
+Enter password: 123456789
+$ `mysql --login-path=hacktober2018 -A westridge`
+```
+
+```
 mysql> SHOW TABLES;
 +---------------------+
 | Tables_in_westridge |

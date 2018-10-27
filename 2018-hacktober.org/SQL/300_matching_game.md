@@ -12,9 +12,24 @@ You are limited to 20 attempts.
 
 ## Answer
 
-* username + password from #pwn task:Cracked
+Bailey
+
+- login to database c.f. #sql task:Tables
 
 ```
-$ mysql -h 104.248.119.92 -P 666 -u westridge -p123456789 westridge
-mysql>
+mysql> SELECT firstName FROM students;
++-------------+
+| firstName   |
++-------------+
+| Simeon      |
+| Prince      |
+| Emmett      |
+| ...         |
+| Daniella    |
+| Lamar       |
+| Shaniya     |
++-------------+
+4281 rows in set (0.85 sec)
 ```
+
+then use "Regular Expressions" to determine answer
