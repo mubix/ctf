@@ -12,28 +12,68 @@ Consult with the KeyMaster and the GateKeeper to find your path.
 
 ## Answer
 
-```
-@ https://areyouthekeymaster.h4110w33n.com
+flag-e782f102531da617037fe3bfd80cbe99
 
-$HOME/.aws/credentials:
+1. solve Vinz Clortho's riddle:
+
+>  Ingesting this (jvfddhyduzmc4rhw) will not burn your eyes or make your breath stink,
+>  but it will take you into dimension 9000!
+
+- "burn eyes" + "breath stink" = onion
+- Tor
+- @ http://jvfddhyduzmc4rhw.onion:9000
+
+$ `curl --socks5-hostname 127.0.0.1:9050 -sL http://jvfddhyduzmc4rhw.onion:9000`
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied.</Message><Resource>/</Resource><RequestId>15618855EE92252F</RequestId><HostId>3L137</HostId></Error>
+```
+
+- AWS S3 bucket
+
+2. Access key pair = Access Key ID + Secret Access Key
+
+- "Access": "Access Key ID"
+- "Secret": "Secret Access Key"
+
+$ [`sudo pip install -U awscli`](https://aws.amazon.com/cli)
+```
+"${HOME}/.aws/credentials":
 	[ctf]
 	aws_access_key_id = WAH2B1B0ICX0VMC4WJV9
 	aws_secret_access_key = 87cCrcOaz10e5SAEXgkGzIvZJsZ6GSFesnjXuXHf
+```
 
-@ https://www.devdungeon.com/content/making-tor-requests-command-line-curl
-curl --socks5-hostname 127.0.0.1:9050 -ksL http://httpbin.org/ip
+- [proxychains4](https://github.com/rofl0r/proxychains-ng)
+```
+$ git clone --recursive https://github.com/rofl0r/proxychains-ng.git
+$ cd proxychains-ng
+$ ./configure --prefix=/usr --sysconfdir=/etc
+$ make && sudo make install && sudo make install-config
 
-@ https://blog.csdn.net/mingjie1212/article/details/51814421
-git clone --recursive https://github.com/rofl0r/proxychains-ng.git
-cd proxychains-ng
-./configure --prefix=/usr --sysconfdir=/etc
-make && sudo make install && sudo make install-config
+"${PREFIX}/etc/proxychains.conf":
+	dynamic_chain
+	quiet_mode
+	proxy_dns
+	remote_dns_subnet 224
+	tcp_read_time_out 15000
+	tcp_connect_time_out 8000
+	localnet 127.0.0.0/255.0.0.0
 
+	[ProxyList]
+	socks4 127.0.0.1 9050
+```
+
+- list bucket(s)
+```
 proxychains4 aws --profile ctf --endpoint-url http://jvfddhyduzmc4rhw.onion:9000 s3 ls
 [proxychains] config file found: /etc/proxychains.conf
 [proxychains] preloading /usr/lib/libproxychains4.so
 2018-09-26 01:12:06 security-pumpkin
+```
 
+- list object(s)
+```
 proxychains4 aws --profile ctf --endpoint-url http://jvfddhyduzmc4rhw.onion:9000 s3api list-objects --bucket security-pumpkin
 [proxychains] config file found: /etc/proxychains.conf
 [proxychains] preloading /usr/lib/libproxychains4.so
@@ -52,7 +92,10 @@ proxychains4 aws --profile ctf --endpoint-url http://jvfddhyduzmc4rhw.onion:9000
 		}
 	]
 }
+```
 
+- download + view contents of "flag.txt"
+```
 proxychains4 aws --profile ctf --endpoint-url http://jvfddhyduzmc4rhw.onion:9000 s3api get-object --bucket security-pumpkin --key flag.txt flag.txt
 [proxychains] config file found: /etc/proxychains.conf
 [proxychains] preloading /usr/lib/libproxychains4.so
