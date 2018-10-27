@@ -33,7 +33,10 @@ reverse .NET Binary via [dnSpy](https://github.com/0xd4d/dnSpy/releases)
 - input: `XXXX`
 
 ```
-Congratulations you have found the secret passageway flag-XRQM80NMOLRXSO9G
+Congratulations you have found the secret passageway
+
+flag-XRQM80NMOLRXSO9G
+
 Now can you solve Vinz Clortho's riddle?
 Ingesting this (jvfddhyduzmc4rhw) will not burn your eyes or make your breath stink,
 but it will take you into dimension 9000!
