@@ -1,1548 +1,1548 @@
 {
-    "achievements": {
-        "0": {
-            "desc": "Find a new weapon",
-            "name": "A True Warrior",
-            "token": 0
-        },
-        "1": {
-            "criterion": "out",
-            "desc": "Venture outside the village",
-            "locationAchievement": true,
-            "name": "Into the Wild",
-            "rect": {
-                "h": 64,
-                "w": 83,
-                "x": 0,
-                "y": 192
-            },
-            "token": 1
-        },
-        "2": {
-            "desc": "Kill 10 rats",
-            "name": "Angry Rats",
-            "nb": 10,
-            "token": 2
-        },
-        "3": {
-            "desc": "Talk to a non-player character",
-            "name": "Small Talk",
-            "token": 3
-        },
-        "4": {
-            "desc": "Find a new armor",
-            "name": "Fat Loot",
-            "token": 4
-        },
-        "5": {
-            "desc": "Kill 10 skeletons",
-            "name": "Bones Collector",
-            "nb": 10,
-            "token": 9
-        },
-        "6": {
-            "criterion": "in",
-            "desc": "Reach the south shore",
-            "locationAchievement": true,
-            "name": "At World's End",
-            "rect": {
-                "h": 10,
-                "w": 84,
-                "x": 0,
-                "y": 290
-            },
-            "token": 6
-        },
-        "7": {
-            "criterion": "in",
-            "desc": "Find the graveyard",
-            "locationAchievement": true,
-            "name": "Tomb Raider",
-            "rect": {
-                "h": 15,
-                "w": 26,
-                "x": 11,
-                "y": 113
-            },
-            "token": 8
-        }
-    },
-    "items": {
-        "axe": {
-            "atk": 5,
-            "icon": "item-axe",
-            "id": 88,
-            "key": "axe",
-            "msg": [
-                "You equipped a sturdy axe!"
-            ],
-            "offsets": {
-                "x": -35,
-                "y": -37
-            },
-            "type": 1
-        },
-        "bluesword": {
-            "atk": 11,
-            "icon": "item-bluesword",
-            "id": 91,
-            "key": "bluesword",
-            "msg": [
-                "flag-GollumWasTheHero"
-            ],
-            "offsets": {
-                "x": -35,
-                "y": -37
-            },
-            "type": 1
-        },
-        "clotharmor": {
-            "def": 1,
-            "icon": "item-clotharmor",
-            "iconAnchor": {
-                "x": -0.3,
-                "y": -0.3
-            },
-            "id": 46,
-            "key": "clotharmor",
-            "type": 2
-        },
-        "firefox": {
-            "def": 0,
-            "frames": {
-                "attack_down": [
-                    48,
-                    52,
-                    64
-                ],
-                "attack_left": [
-                    75,
-                    79,
-                    91
-                ],
-                "attack_right": [
-                    0,
-                    4,
-                    16
-                ],
-                "attack_up": [
-                    24,
-                    28,
-                    40
-                ],
-                "death": [
-                    0,
-                    5
-                ],
-                "down": [
-                    56,
-                    59
-                ],
-                "idle_down": [
-                    64,
-                    65
-                ],
-                "idle_left": [
-                    91,
-                    95
-                ],
-                "idle_right": [
-                    16,
-                    20
-                ],
-                "idle_up": [
-                    40,
-                    41
-                ],
-                "left": [
-                    84,
-                    87
-                ],
-                "right": [
-                    8,
-                    11
-                ],
-                "up": [
-                    32,
-                    39
-                ]
-            },
-            "icon": "item-leatherarmor",
-            "id": 103,
-            "key": "firefox",
-            "type": 2
-        },
-        "goldenarmor": {
-            "def": 11,
-            "icon": "item-goldenarmor",
-            "id": 51,
-            "key": "goldenarmor",
-            "msg": [
-                "flag-BlingBlingBaby"
-            ],
-            "type": 2
-        },
-        "goldensword": {
-            "atk": 13,
-            "icon": "item-goldensword",
-            "id": 92,
-            "key": "goldensword",
-            "msg": [
-                "You equipped a shiny golden sword!"
-            ],
-            "offsets": {
-                "x": -35,
-                "y": -37
-            },
-            "type": 1
-        },
-        "item-axe": {
-            "equip": "axe",
-            "frame": 0,
-            "id": 81,
-            "nbFrames": 6
-        },
-        "item-bluesword": {
-            "equip": "bluesword",
-            "frame": 0,
-            "id": 84,
-            "nbFrames": 6
-        },
-        "item-burger": {
-            "frame": 0,
-            "heals": 100,
-            "id": 103,
-            "msg": "You ate an hamburger!",
-            "nbFrames": 6
-        },
-        "item-clotharmor": {
-            "equip": "clotharmor",
-            "frame": 0,
-            "id": 39,
-            "nbFrames": 6
-        },
-        "item-flask": {
-            "customAnchor": {
-                "x": -0.6,
-                "y": 0.25
-            },
-            "frame": 0,
-            "heals": 40,
-            "id": 100,
-            "msg": "You drank a health potion!",
-            "nbFrames": 6
-        },
-        "item-goldenarmor": {
-            "equip": "goldenarmor",
-            "frame": 0,
-            "id": 42,
-            "nbFrames": 6
-        },
-        "item-goldensword": {
-            "equip": "goldensword",
-            "frame": 0,
-            "id": 85,
-            "nbFrames": 6
-        },
-        "item-leatherarmor": {
-            "equip": "leatherarmor",
-            "frame": 0,
-            "id": 43,
-            "nbFrames": 6
-        },
-        "item-mailarmor": {
-            "equip": "mailarmor",
-            "frame": 0,
-            "id": 44,
-            "nbFrames": 6
-        },
-        "item-morningstar": {
-            "equip": "morningstar",
-            "frame": 0,
-            "id": 82,
-            "nbFrames": 6
-        },
-        "item-platearmor": {
-            "equip": "platearmor",
-            "frame": 0,
-            "id": 45,
-            "nbFrames": 6
-        },
-        "item-redarmor": {
-            "equip": "redarmor",
-            "frame": 0,
-            "id": 40,
-            "nbFrames": 6
-        },
-        "item-redsword": {
-            "equip": "redsword",
-            "frame": 0,
-            "id": 83,
-            "nbFrames": 6
-        },
-        "item-sword2": {
-            "equip": "sword2",
-            "frame": 0,
-            "id": 80,
-            "nbFrames": 6
-        },
-        "leatherarmor": {
-            "def": 3,
-            "icon": "item-leatherarmor",
-            "id": 47,
-            "key": "leatherarmor",
-            "msg": [
-                "You equipped sexy leather armor!"
-            ],
-            "type": 2
-        },
-        "mailarmor": {
-            "def": 5,
-            "icon": "item-mailarmor",
-            "id": 48,
-            "key": "mailarmor",
-            "msg": [
-                "You equipped shiny mail armor!"
-            ],
-            "type": 2
-        },
-        "morningstar": {
-            "atk": 7,
-            "icon": "item-morningstar",
-            "id": 89,
-            "key": "morningstar",
-            "msg": [
-                "You equipped a murder ball!"
-            ],
-            "offsets": {
-                "x": -23,
-                "y": -27
-            },
-            "type": 1
-        },
-        "platearmor": {
-            "def": 7,
-            "icon": "item-platearmor",
-            "id": 49,
-            "key": "platearmor",
-            "msg": [
-                "You equipped a strong plate armor!"
-            ],
-            "type": 2
-        },
-        "redarmor": {
-            "def": 9,
-            "icon": "item-redarmor",
-            "id": 50,
-            "key": "redarmor",
-            "msg": [
-                "You equipped an evil red armor!"
-            ],
-            "type": 2
-        },
-        "redsword": {
-            "atk": 9,
-            "icon": "item-redsword",
-            "id": 90,
-            "key": "redsword",
-            "msg": [
-                "You equipped a damned red sword!"
-            ],
-            "offsets": {
-                "x": -35,
-                "y": -37
-            },
-            "type": 1
-        },
-        "sword1": {
-            "atk": 1,
-            "icon": "item-sword1",
-            "id": 86,
-            "key": "sword1",
-            "offsets": {
-                "x": -18,
-                "y": -23
-            },
-            "type": 1
-        },
-        "sword2": {
-            "atk": 3,
-            "icon": "item-sword2",
-            "id": 87,
-            "key": "sword2",
-            "msg": [
-                "You equipped a bigger sword!"
-            ],
-            "offsets": {
-                "x": -35,
-                "y": -37
-            },
-            "type": 1
-        }
-    },
-    "monsters": {
-        "bat": {
-            "aggressive": false,
-            "atk": 3,
-            "customAnchor": {
-                "x": 0.25,
-                "y": 0.5
-            },
-            "def": 2,
-            "frames": {
-                "attack_down": [
-                    30,
-                    34
-                ],
-                "attack_left": [
-                    45,
-                    49
-                ],
-                "attack_right": [
-                    0,
-                    4
-                ],
-                "attack_up": [
-                    15,
-                    19
-                ],
-                "down": [
-                    35,
-                    39
-                ],
-                "idle_down": [
-                    40,
-                    44
-                ],
-                "idle_left": [
-                    55,
-                    59
-                ],
-                "idle_rate": 10,
-                "idle_right": [
-                    10,
-                    14
-                ],
-                "idle_up": [
-                    25,
-                    29
-                ],
-                "left": [
-                    50,
-                    54
-                ],
-                "right": [
-                    5,
-                    9
-                ],
-                "up": [
-                    20,
-                    24
-                ]
-            },
-            "id": 13,
-            "life": 45,
-            "lootTable": {
-                "item-axe": 1,
-                "item-flask": 3
-            },
-            "name": "bat",
-            "speed": 300
-        },
-        "boss": {
-            "atk": 4,
-            "customAnchor": {
-                "x": 0.3,
-                "y": 0.55
-            },
-            "def": 15,
-            "frames": {
-                "attack_down": [
-                    26,
-                    31
-                ],
-                "attack_left": [
-                    40,
-                    45
-                ],
-                "attack_right": [
-                    0,
-                    5
-                ],
-                "attack_up": [
-                    13,
-                    17
-                ],
-                "down": [
-                    32,
-                    35
-                ],
-                "idle_down": [
-                    36,
-                    39
-                ],
-                "idle_left": [
-                    49,
-                    52
-                ],
-                "idle_right": [
-                    9,
-                    12
-                ],
-                "idle_up": [
-                    22,
-                    25
-                ],
-                "left": [
-                    46,
-                    48
-                ],
-                "right": [
-                    6,
-                    8
-                ],
-                "up": [
-                    18,
-                    21
-                ]
-            },
-            "id": 17,
-            "life": 350,
-            "lootTable": {
-                "item-goldensword": 10
-            },
-            "name": "boss",
-            "speed": 300
-        },
-        "crab": {
-            "atk": 2,
-            "customAnchor": {
-                "x": 0.15,
-                "y": 0.3
-            },
-            "def": 3,
-            "frames": {
-                "attack_down": [
-                    43,
-                    50
-                ],
-                "attack_left": [
-                    64,
-                    70
-                ],
-                "attack_right": [
-                    8,
-                    14
-                ],
-                "attack_up": [
-                    25,
-                    32
-                ],
-                "death": [
-                    0,
-                    7
-                ],
-                "down": [
-                    51,
-                    56
-                ],
-                "idle_down": [
-                    57,
-                    63
-                ],
-                "idle_left": [
-                    77,
-                    80
-                ],
-                "idle_right": [
-                    21,
-                    24
-                ],
-                "idle_up": [
-                    37,
-                    42
-                ],
-                "left": [
-                    71,
-                    76
-                ],
-                "right": [
-                    15,
-                    20
-                ],
-                "up": [
-                    33,
-                    36
-                ]
-            },
-            "id": 5,
-            "life": 30,
-            "lootTable": {
-                "item-axe": 1,
-                "item-flask": 3,
-                "item-leatherarmor": 1
-            },
-            "name": "crab",
-            "speed": 300
-        },
-        "deathknight": {
-            "atk": 4,
-            "customAnchor": {
-                "x": 0.3,
-                "y": 0.45
-            },
-            "def": 8,
-            "frames": {
-                "attack_down": [
-                    22,
-                    26
-                ],
-                "attack_left": [
-                    33,
-                    37
-                ],
-                "attack_right": [
-                    0,
-                    4
-                ],
-                "attack_up": [
-                    11,
-                    15
-                ],
-                "down": [
-                    27,
-                    30
-                ],
-                "idle_down": [
-                    31,
-                    32
-                ],
-                "idle_left": [
-                    42,
-                    43
-                ],
-                "idle_right": [
-                    9,
-                    10
-                ],
-                "idle_up": [
-                    20,
-                    21
-                ],
-                "left": [
-                    38,
-                    41
-                ],
-                "right": [
-                    5,
-                    8
-                ],
-                "up": [
-                    16,
-                    19
-                ]
-            },
-            "id": 23,
-            "life": 75,
-            "lootTable": {
-                "item-burger": 9
-            },
-            "name": "deathknight",
-            "speed": 300
-        },
-        "eye": {
-            "atk": 4,
-            "customAnchor": {
-                "x": 0.1,
-                "y": 0.5
-            },
-            "def": 7,
-            "frames": {
-                "attack_down": [
-                    47,
-                    54
-                ],
-                "attack_left": [
-                    74,
-                    79
-                ],
-                "attack_right": [
-                    0,
-                    5
-                ],
-                "attack_up": [
-                    24,
-                    27
-                ],
-                "down": [
-                    55,
-                    59
-                ],
-                "idle_down": [
-                    60,
-                    73
-                ],
-                "idle_left": [
-                    84,
-                    97
-                ],
-                "idle_rate": 10,
-                "idle_right": [
-                    10,
-                    23
-                ],
-                "idle_up": [
-                    33,
-                    46
-                ],
-                "left": [
-                    80,
-                    83
-                ],
-                "right": [
-                    6,
-                    9
-                ],
-                "up": [
-                    28,
-                    32
-                ]
-            },
-            "id": 14,
-            "life": 70,
-            "lootTable": {
-                "item-flask": 3,
-                "item-redarmor": 1,
-                "item-redsword": 1
-            },
-            "name": "eye",
-            "speed": 300
-        },
-        "goblin": {
-            "atk": 3,
-            "customAnchor": {
-                "x": 0.1,
-                "y": 0.4
-            },
-            "def": 2,
-            "frames": {
-                "attack_down": [
-                    17,
-                    19
-                ],
-                "attack_left": [
-                    26,
-                    28
-                ],
-                "attack_right": [
-                    0,
-                    2
-                ],
-                "attack_up": [
-                    8,
-                    10
-                ],
-                "down": [
-                    20,
-                    23
-                ],
-                "idle_down": [
-                    24,
-                    25
-                ],
-                "idle_left": [
-                    32,
-                    33
-                ],
-                "idle_right": [
-                    6,
-                    7
-                ],
-                "idle_up": [
-                    15,
-                    16
-                ],
-                "left": [
-                    29,
-                    31
-                ],
-                "right": [
-                    3,
-                    5
-                ],
-                "up": [
-                    11,
-                    14
-                ]
-            },
-            "id": 1,
-            "life": 30,
-            "lootTable": {
-                "item-axe": 1,
-                "item-flask": 3,
-                "item-leatherarmor": 1
-            },
-            "name": "goblin",
-            "speed": 300
-        },
-        "ogre": {
-            "atk": 5,
-            "customAnchor": {
-                "x": 0.25,
-                "y": 0.6
-            },
-            "def": 4,
-            "frames": {
-                "attack_down": [
-                    21,
-                    23
-                ],
-                "attack_left": [
-                    32,
-                    34
-                ],
-                "attack_right": [
-                    0,
-                    2
-                ],
-                "attack_up": [
-                    11,
-                    13
-                ],
-                "down": [
-                    24,
-                    29
-                ],
-                "idle_down": [
-                    30,
-                    31
-                ],
-                "idle_left": [
-                    41,
-                    42
-                ],
-                "idle_right": [
-                    9,
-                    10
-                ],
-                "idle_up": [
-                    19,
-                    20
-                ],
-                "left": [
-                    35,
-                    40
-                ],
-                "right": [
-                    2,
-                    7
-                ],
-                "up": [
-                    14,
-                    18
-                ]
-            },
-            "id": 2,
-            "life": 50,
-            "lootTable": {
-                "item-burger": 1,
-                "item-flask": 3,
-                "item-morningstar": 1,
-                "item-platearmor": 1
-            },
-            "name": "ogre",
-            "speed": 300
-        },
-        "rat": {
-            "achievement": 2,
-            "atk": 1,
-            "def": 2,
-            "frames": {
-                "attack_down": [
-                    27,
-                    30
-                ],
-                "attack_left": [
-                    39,
-                    44
-                ],
-                "attack_right": [
-                    4,
-                    9
-                ],
-                "attack_up": [
-                    15,
-                    18
-                ],
-                "death": [
-                    0,
-                    3
-                ],
-                "down": [
-                    31,
-                    34
-                ],
-                "idle_down": [
-                    35,
-                    38
-                ],
-                "idle_left": [
-                    48,
-                    49
-                ],
-                "idle_right": [
-                    13,
-                    14
-                ],
-                "idle_up": [
-                    23,
-                    26
-                ],
-                "left": [
-                    45,
-                    47
-                ],
-                "right": [
-                    10,
-                    12
-                ],
-                "up": [
-                    19,
-                    22
-                ]
-            },
-            "id": 3,
-            "life": 25,
-            "name": "rat",
-            "speed": 300
-        },
-        "skeleton": {
-            "achievement": 5,
-            "atk": 3,
-            "customAnchor": {
-                "x": 0.25,
-                "y": 0.5
-            },
-            "def": 3,
-            "frames": {
-                "attack_down": [
-                    19,
-                    21
-                ],
-                "attack_left": [
-                    29,
-                    31
-                ],
-                "attack_right": [
-                    0,
-                    2
-                ],
-                "attack_up": [
-                    9,
-                    11
-                ],
-                "down": [
-                    22,
-                    25
-                ],
-                "idle_down": [
-                    26,
-                    28
-                ],
-                "idle_left": [
-                    36,
-                    37
-                ],
-                "idle_right": [
-                    7,
-                    8
-                ],
-                "idle_up": [
-                    16,
-                    18
-                ],
-                "left": [
-                    32,
-                    35
-                ],
-                "right": [
-                    3,
-                    6
-                ],
-                "up": [
-                    12,
-                    15
-                ]
-            },
-            "id": 0,
-            "life": 50,
-            "lootTable": {
-                "item-axe": 1,
-                "item-flask": 3,
-                "item-mailarmor": 1
-            },
-            "name": "skeleton",
-            "speed": 300
-        },
-        "skeleton2": {
-            "atk": 5,
-            "customAnchor": {
-                "x": 0.25,
-                "y": 0.5
-            },
-            "def": 6,
-            "frames": {
-                "attack_down": [
-                    18,
-                    20
-                ],
-                "attack_left": [
-                    28,
-                    30
-                ],
-                "attack_right": [
-                    0,
-                    2
-                ],
-                "attack_up": [
-                    9,
-                    11
-                ],
-                "down": [
-                    21,
-                    24
-                ],
-                "idle_down": [
-                    25,
-                    27
-                ],
-                "idle_left": [
-                    35,
-                    36
-                ],
-                "idle_right": [
-                    7,
-                    8
-                ],
-                "idle_up": [
-                    16,
-                    17
-                ],
-                "left": [
-                    31,
-                    34
-                ],
-                "right": [
-                    3,
-                    6
-                ],
-                "up": [
-                    12,
-                    15
-                ]
-            },
-            "id": 16,
-            "life": 65,
-            "lootTable": {
-                "item-bluesword": 1,
-                "item-flask": 3,
-                "item-platearmor": 1
-            },
-            "name": "skeleton",
-            "speed": 300
-        },
-        "snake": {
-            "atk": 3,
-            "customAnchor": {
-                "x": 0.1,
-                "y": 0.3
-            },
-            "def": 2,
-            "frames": {
-                "attack_down": [
-                    26,
-                    30
-                ],
-                "attack_left": [
-                    41,
-                    45
-                ],
-                "attack_right": [
-                    0,
-                    4
-                ],
-                "attack_up": [
-                    13,
-                    17
-                ],
-                "down": [
-                    31,
-                    34
-                ],
-                "idle_down": [
-                    35,
-                    40
-                ],
-                "idle_left": [
-                    50,
-                    53
-                ],
-                "idle_right": [
-                    9,
-                    12
-                ],
-                "idle_up": [
-                    22,
-                    25
-                ],
-                "left": [
-                    46,
-                    49
-                ],
-                "right": [
-                    5,
-                    8
-                ],
-                "up": [
-                    18,
-                    21
-                ]
-            },
-            "id": 15,
-            "life": 40,
-            "lootTable": {
-                "item-flask": 4,
-                "item-mailarmor": 1,
-                "item-morningstar": 1
-            },
-            "name": "snake",
-            "speed": 300
-        },
-        "spectre": {
-            "atk": 5,
-            "customAnchor": {
-                "x": 0.25,
-                "y": 0.5
-            },
-            "def": 10,
-            "frames": {
-                "attack_down": [
-                    36,
-                    41
-                ],
-                "attack_left": [
-                    48,
-                    55
-                ],
-                "attack_right": [
-                    0,
-                    7
-                ],
-                "attack_up": [
-                    14,
-                    19
-                ],
-                "down": [
-                    42,
-                    45
-                ],
-                "idle_down": [
-                    46,
-                    47
-                ],
-                "idle_left": [
-                    60,
-                    61
-                ],
-                "idle_right": [
-                    12,
-                    13
-                ],
-                "idle_up": [
-                    28,
-                    35
-                ],
-                "left": [
-                    56,
-                    59
-                ],
-                "right": [
-                    8,
-                    11
-                ],
-                "up": [
-                    20,
-                    27
-                ]
-            },
-            "id": 4,
-            "life": 80,
-            "lootTable": {
-                "item-flask": 3,
-                "item-redarmor": 1,
-                "item-redsword": 1
-            },
-            "name": "spectre",
-            "speed": 300
-        }
-    },
-    "npc": {
-        "agent": {
-            "atlasKey": "agent",
-            "customAnchor": {
-                "x": -0.1,
-                "y": 0.25
-            },
-            "dialogue": [
-                "Hi.",
-                "If the sound effects annoy you, you can mute them by hitting ALT+F4."
-            ],
-            "frame": 0,
-            "nbFrames": 2
-        },
-        "beachnpc": {
-            "atlasKey": "beachnpc",
-            "dialogue": [
-                "Sometimes, when you kill an entire group of monsters,",
-                "A hidden chest appears...",
-                "Someimtes you just have to live knowing you killed a lot of innocent people."
-            ],
-            "frame": 0,
-            "nbFrames": 2
-        },
-        "coder": {
-            "atlasKey": "coder",
-            "dialogue": [
-                "I am here to find bugs. Software bugs.",
-                "If you find any, kill them with fire."
-            ],
-            "frame": 0,
-            "nbFrames": 2
-        },
-        "desertnpc": {
-            "atlasKey": "desertnpc",
-            "dialogue": [
-                "If I were you, I would go no further.",
-                "An ancient evil lurks ahead...",
-                "Or go ahead, whatever.",
-                "I'm an NPC, not a cop."
-            ],
-            "frame": 0,
-            "nbFrames": 2
-        },
-        "guard": {
-            "atlasKey": "guard",
-            "customAnchor": {
-                "x": 0.25,
-                "y": 0.25
-            },
-            "dialogue": [
-                "Take care outside of the village.",
-                "There are monsters afoot!",
-                "Though some might say man is the true monster"
-            ],
-            "frame": 0,
-            "nbFrames": 2
-        },
-        "king": {
-            "atlasKey": "king",
-            "customAnchor": {
-                "x": 0.1,
-                "y": 0.3
-            },
-            "dialogue": [
-                "Brave adventurer, venture north and slay the Skeleton king to save us all!",
-                "You'll be rewarded in cookies!",
-                "Maybe even flags!"
-            ],
-            "frame": 0,
-            "nbFrames": 2
-        },
-        "nyan": {
-            "atlasKey": "nyan",
-            "customAnchor": {
-                "x": 0.5,
-                "y": 0.25
-            },
-            "dialogue": [
-                "My rainbow tail is comprised entirely of the souls of BMW drivers that don't use their turn signal.",
-                "It is really long",
-                "flag-NyanNyanNyanBOO"
-            ],
-            "frame": 0,
-            "nbFrames": 6,
-            "rate": 9
-        },
-        "octocat": {
-            "atlasKey": "octocat",
-            "customAnchor": {
-                "x": 0.25,
-                "y": 0.25
-            },
-            "dialogue": [
-                "glub",
-                "glub!",
-                "double-glub"
-            ],
-            "frame": 0,
-            "nbFrames": 4
-        },
-        "priest": {
-            "atlasKey": "priest",
-            "dialogue": [
-                "Hello there!",
-                "You can press enter to open the chat bar and talk to other players.",
-                "You can do the same by pressing the bubble icon at the bottom right of the screen."
-            ],
-            "frame": 0,
-            "nbFrames": 2
-        },
-        "rick": {
-            "atlasKey": "rick",
-            "dialogue": [
-                "Hi. I'm Rick.",
-                "I guess you want a flag, don't you?",
-                "Fine - flag-NoPicklesHere"
-            ],
-            "frame": 0,
-            "nbFrames": 4
-        },
-        "scientist": {
-            "atlasKey": "phaser",
-            "customAnchor": {
-                "x": -0.1,
-                "y": 0.25
-            },
-            "dialogue": [
-                "This game was made using the Phaser game engine.",
-                "This CTF was made using a demonic engine of the blackest souls.",
-                "Have a great day!"
-            ],
-            "frame": 0,
-            "nbFrames": 1
-        },
-        "sorcerer": {
-            "atlasKey": "sorcerer",
-            "customAnchor": {
-                "x": 0.16,
-                "y": 0.25
-            },
-            "dialogue": [
-                "Hi young one!",
-                "If you press the cup icon at the bottom right of the sceen, you can see what achievements are left for you to unlock!",
-                "If you press the X in the far top right, you get your soul back."
-            ],
-            "frame": 0,
-            "nbFrames": 6
-        },
-        "villagegirl": {
-            "atlasKey": "villagegirl",
-            "dialogue": [
-                "Enjoy this game made with Phaser, Node.js and Socket.io, and pure evil"
-            ],
-            "frame": 0,
-            "nbFrames": 2
-        },
-        "villager": {
-            "atlasKey": "villager",
-            "customAnchor": {
-                "x": -0.1,
-                "y": 0.25
-            },
-            "dialogue": [
-                "Notice how there is no music?",
-                "Rumor has it that the developer went mad from repeatedly hearing the same musics and removed them all...",
-                "He might have also started the apocalypse."
-            ],
-            "frame": 0,
-            "nbFrames": 2
-        }
-    },
-    "scenery": {
-        "scenery": [
-            {
-                "frame": 747,
-                "id": 747,
-                "nbFrames": 2
-            },
-            {
-                "frame": 240,
-                "id": 240,
-                "nbFrames": 3
-            },
-            {
-                "frame": 605,
-                "id": 159,
-                "nbFrames": 3
-            },
-            {
-                "frame": 625,
-                "id": 158,
-                "nbFrames": 2
-            },
-            {
-                "frame": 645,
-                "id": 157,
-                "nbFrames": 2
-            },
-            {
-                "frame": 725,
-                "id": 725,
-                "nbFrames": 4
-            },
-            {
-                "frame": 1040,
-                "id": 1040,
-                "nbFrames": 4
-            },
-            {
-                "frame": 1060,
-                "id": 1060,
-                "nbFrames": 4
-            },
-            {
-                "frame": 1256,
-                "id": 1256,
-                "nbFrames": 4
-            },
-            {
-                "frame": 1290,
-                "id": 1290,
-                "nbFrames": 4
-            },
-            {
-                "frame": 1310,
-                "id": 1310,
-                "nbFrames": 4
-            },
-            {
-                "frame": 1330,
-                "id": 1330,
-                "nbFrames": 4
-            },
-            {
-                "frame": 1400,
-                "id": 1400,
-                "nbFrames": 10
-            },
-            {
-                "frame": 1410,
-                "id": 1410,
-                "nbFrames": 7
-            },
-            {
-                "frame": 1420,
-                "id": 1420,
-                "nbFrames": 7
-            },
-            {
-                "frame": 1427,
-                "id": 1427,
-                "nbFrames": 8
-            },
-            {
-                "frame": 1500,
-                "id": 1500,
-                "nbFrames": 3
-            },
-            {
-                "frame": 1520,
-                "id": 1520,
-                "nbFrames": 3
-            },
-            {
-                "frame": 1720,
-                "id": 1720,
-                "nbFrames": 3
-            },
-            {
-                "frame": 1740,
-                "id": 1740,
-                "nbFrames": 3
-            },
-            {
-                "frame": 1746,
-                "id": 1746,
-                "nbFrames": 3
-            },
-            {
-                "frame": 1780,
-                "id": 1780,
-                "nbFrames": 19
-            },
-            {
-                "frame": 1800,
-                "id": 1800,
-                "nbFrames": 19
-            },
-            {
-                "frame": 1920,
-                "id": 1920,
-                "nbFrames": 15
-            }
-        ]
-    },
-    "sounds": {
-        "resources": [
-            "sounds.ogg",
-            "sounds.m4a",
-            "sounds.mp3",
-            "sounds.ac3"
-        ],
-        "spritemap": {
-            "achievement": {
-                "end": 0.860204081632653,
-                "loop": false,
-                "start": 0
-            },
-            "chat": {
-                "end": 2.2367573696145127,
-                "loop": false,
-                "start": 2
-            },
-            "chest": {
-                "end": 4.272879818594104,
-                "loop": false,
-                "start": 4
-            },
-            "death": {
-                "end": 6.962721088435374,
-                "loop": false,
-                "start": 6
-            },
-            "heal": {
-                "end": 8.370204081632654,
-                "loop": false,
-                "start": 8
-            },
-            "hit1": {
-                "end": 10.11251700680272,
-                "loop": false,
-                "start": 10
-            },
-            "hurt": {
-                "end": 12.050589569160998,
-                "loop": false,
-                "start": 12
-            },
-            "kill2": {
-                "end": 14.340748299319728,
-                "loop": false,
-                "start": 14
-            },
-            "noloot": {
-                "end": 16.766938775510205,
-                "loop": false,
-                "start": 16
-            }
-        }
-    },
-    "texts": {
-        "create": "Creating world ...",
-        "db_error": "No match found in the database for your character; please refresh page and create a new one!",
-        "help_chat": "Press enter to display the chat bar and talk to other players (be polite!)",
-        "help_move": "Left click or tap to move, talk to NPC, pick up items and attack monsters",
-        "help_save": "Your progress is automatically saved on a regular basis",
-        "orient": "Please rotate your device in landscape position"
-    }
+	"achievements": {
+		"0": {
+			"desc": "Find a new weapon",
+			"name": "A True Warrior",
+			"token": 0
+		},
+		"1": {
+			"criterion": "out",
+			"desc": "Venture outside the village",
+			"locationAchievement": true,
+			"name": "Into the Wild",
+			"rect": {
+				"h": 64,
+				"w": 83,
+				"x": 0,
+				"y": 192
+			},
+			"token": 1
+		},
+		"2": {
+			"desc": "Kill 10 rats",
+			"name": "Angry Rats",
+			"nb": 10,
+			"token": 2
+		},
+		"3": {
+			"desc": "Talk to a non-player character",
+			"name": "Small Talk",
+			"token": 3
+		},
+		"4": {
+			"desc": "Find a new armor",
+			"name": "Fat Loot",
+			"token": 4
+		},
+		"5": {
+			"desc": "Kill 10 skeletons",
+			"name": "Bones Collector",
+			"nb": 10,
+			"token": 9
+		},
+		"6": {
+			"criterion": "in",
+			"desc": "Reach the south shore",
+			"locationAchievement": true,
+			"name": "At World's End",
+			"rect": {
+				"h": 10,
+				"w": 84,
+				"x": 0,
+				"y": 290
+			},
+			"token": 6
+		},
+		"7": {
+			"criterion": "in",
+			"desc": "Find the graveyard",
+			"locationAchievement": true,
+			"name": "Tomb Raider",
+			"rect": {
+				"h": 15,
+				"w": 26,
+				"x": 11,
+				"y": 113
+			},
+			"token": 8
+		}
+	},
+	"items": {
+		"axe": {
+			"atk": 5,
+			"icon": "item-axe",
+			"id": 88,
+			"key": "axe",
+			"msg": [
+				"You equipped a sturdy axe!"
+			],
+			"offsets": {
+				"x": -35,
+				"y": -37
+			},
+			"type": 1
+		},
+		"bluesword": {
+			"atk": 11,
+			"icon": "item-bluesword",
+			"id": 91,
+			"key": "bluesword",
+			"msg": [
+				"flag-GollumWasTheHero"
+			],
+			"offsets": {
+				"x": -35,
+				"y": -37
+			},
+			"type": 1
+		},
+		"clotharmor": {
+			"def": 1,
+			"icon": "item-clotharmor",
+			"iconAnchor": {
+				"x": -0.3,
+				"y": -0.3
+			},
+			"id": 46,
+			"key": "clotharmor",
+			"type": 2
+		},
+		"firefox": {
+			"def": 0,
+			"frames": {
+				"attack_down": [
+					48,
+					52,
+					64
+				],
+				"attack_left": [
+					75,
+					79,
+					91
+				],
+				"attack_right": [
+					0,
+					4,
+					16
+				],
+				"attack_up": [
+					24,
+					28,
+					40
+				],
+				"death": [
+					0,
+					5
+				],
+				"down": [
+					56,
+					59
+				],
+				"idle_down": [
+					64,
+					65
+				],
+				"idle_left": [
+					91,
+					95
+				],
+				"idle_right": [
+					16,
+					20
+				],
+				"idle_up": [
+					40,
+					41
+				],
+				"left": [
+					84,
+					87
+				],
+				"right": [
+					8,
+					11
+				],
+				"up": [
+					32,
+					39
+				]
+			},
+			"icon": "item-leatherarmor",
+			"id": 103,
+			"key": "firefox",
+			"type": 2
+		},
+		"goldenarmor": {
+			"def": 11,
+			"icon": "item-goldenarmor",
+			"id": 51,
+			"key": "goldenarmor",
+			"msg": [
+				"flag-BlingBlingBaby"
+			],
+			"type": 2
+		},
+		"goldensword": {
+			"atk": 13,
+			"icon": "item-goldensword",
+			"id": 92,
+			"key": "goldensword",
+			"msg": [
+				"You equipped a shiny golden sword!"
+			],
+			"offsets": {
+				"x": -35,
+				"y": -37
+			},
+			"type": 1
+		},
+		"item-axe": {
+			"equip": "axe",
+			"frame": 0,
+			"id": 81,
+			"nbFrames": 6
+		},
+		"item-bluesword": {
+			"equip": "bluesword",
+			"frame": 0,
+			"id": 84,
+			"nbFrames": 6
+		},
+		"item-burger": {
+			"frame": 0,
+			"heals": 100,
+			"id": 103,
+			"msg": "You ate an hamburger!",
+			"nbFrames": 6
+		},
+		"item-clotharmor": {
+			"equip": "clotharmor",
+			"frame": 0,
+			"id": 39,
+			"nbFrames": 6
+		},
+		"item-flask": {
+			"customAnchor": {
+				"x": -0.6,
+				"y": 0.25
+			},
+			"frame": 0,
+			"heals": 40,
+			"id": 100,
+			"msg": "You drank a health potion!",
+			"nbFrames": 6
+		},
+		"item-goldenarmor": {
+			"equip": "goldenarmor",
+			"frame": 0,
+			"id": 42,
+			"nbFrames": 6
+		},
+		"item-goldensword": {
+			"equip": "goldensword",
+			"frame": 0,
+			"id": 85,
+			"nbFrames": 6
+		},
+		"item-leatherarmor": {
+			"equip": "leatherarmor",
+			"frame": 0,
+			"id": 43,
+			"nbFrames": 6
+		},
+		"item-mailarmor": {
+			"equip": "mailarmor",
+			"frame": 0,
+			"id": 44,
+			"nbFrames": 6
+		},
+		"item-morningstar": {
+			"equip": "morningstar",
+			"frame": 0,
+			"id": 82,
+			"nbFrames": 6
+		},
+		"item-platearmor": {
+			"equip": "platearmor",
+			"frame": 0,
+			"id": 45,
+			"nbFrames": 6
+		},
+		"item-redarmor": {
+			"equip": "redarmor",
+			"frame": 0,
+			"id": 40,
+			"nbFrames": 6
+		},
+		"item-redsword": {
+			"equip": "redsword",
+			"frame": 0,
+			"id": 83,
+			"nbFrames": 6
+		},
+		"item-sword2": {
+			"equip": "sword2",
+			"frame": 0,
+			"id": 80,
+			"nbFrames": 6
+		},
+		"leatherarmor": {
+			"def": 3,
+			"icon": "item-leatherarmor",
+			"id": 47,
+			"key": "leatherarmor",
+			"msg": [
+				"You equipped sexy leather armor!"
+			],
+			"type": 2
+		},
+		"mailarmor": {
+			"def": 5,
+			"icon": "item-mailarmor",
+			"id": 48,
+			"key": "mailarmor",
+			"msg": [
+				"You equipped shiny mail armor!"
+			],
+			"type": 2
+		},
+		"morningstar": {
+			"atk": 7,
+			"icon": "item-morningstar",
+			"id": 89,
+			"key": "morningstar",
+			"msg": [
+				"You equipped a murder ball!"
+			],
+			"offsets": {
+				"x": -23,
+				"y": -27
+			},
+			"type": 1
+		},
+		"platearmor": {
+			"def": 7,
+			"icon": "item-platearmor",
+			"id": 49,
+			"key": "platearmor",
+			"msg": [
+				"You equipped a strong plate armor!"
+			],
+			"type": 2
+		},
+		"redarmor": {
+			"def": 9,
+			"icon": "item-redarmor",
+			"id": 50,
+			"key": "redarmor",
+			"msg": [
+				"You equipped an evil red armor!"
+			],
+			"type": 2
+		},
+		"redsword": {
+			"atk": 9,
+			"icon": "item-redsword",
+			"id": 90,
+			"key": "redsword",
+			"msg": [
+				"You equipped a damned red sword!"
+			],
+			"offsets": {
+				"x": -35,
+				"y": -37
+			},
+			"type": 1
+		},
+		"sword1": {
+			"atk": 1,
+			"icon": "item-sword1",
+			"id": 86,
+			"key": "sword1",
+			"offsets": {
+				"x": -18,
+				"y": -23
+			},
+			"type": 1
+		},
+		"sword2": {
+			"atk": 3,
+			"icon": "item-sword2",
+			"id": 87,
+			"key": "sword2",
+			"msg": [
+				"You equipped a bigger sword!"
+			],
+			"offsets": {
+				"x": -35,
+				"y": -37
+			},
+			"type": 1
+		}
+	},
+	"monsters": {
+		"bat": {
+			"aggressive": false,
+			"atk": 3,
+			"customAnchor": {
+				"x": 0.25,
+				"y": 0.5
+			},
+			"def": 2,
+			"frames": {
+				"attack_down": [
+					30,
+					34
+				],
+				"attack_left": [
+					45,
+					49
+				],
+				"attack_right": [
+					0,
+					4
+				],
+				"attack_up": [
+					15,
+					19
+				],
+				"down": [
+					35,
+					39
+				],
+				"idle_down": [
+					40,
+					44
+				],
+				"idle_left": [
+					55,
+					59
+				],
+				"idle_rate": 10,
+				"idle_right": [
+					10,
+					14
+				],
+				"idle_up": [
+					25,
+					29
+				],
+				"left": [
+					50,
+					54
+				],
+				"right": [
+					5,
+					9
+				],
+				"up": [
+					20,
+					24
+				]
+			},
+			"id": 13,
+			"life": 45,
+			"lootTable": {
+				"item-axe": 1,
+				"item-flask": 3
+			},
+			"name": "bat",
+			"speed": 300
+		},
+		"boss": {
+			"atk": 4,
+			"customAnchor": {
+				"x": 0.3,
+				"y": 0.55
+			},
+			"def": 15,
+			"frames": {
+				"attack_down": [
+					26,
+					31
+				],
+				"attack_left": [
+					40,
+					45
+				],
+				"attack_right": [
+					0,
+					5
+				],
+				"attack_up": [
+					13,
+					17
+				],
+				"down": [
+					32,
+					35
+				],
+				"idle_down": [
+					36,
+					39
+				],
+				"idle_left": [
+					49,
+					52
+				],
+				"idle_right": [
+					9,
+					12
+				],
+				"idle_up": [
+					22,
+					25
+				],
+				"left": [
+					46,
+					48
+				],
+				"right": [
+					6,
+					8
+				],
+				"up": [
+					18,
+					21
+				]
+			},
+			"id": 17,
+			"life": 350,
+			"lootTable": {
+				"item-goldensword": 10
+			},
+			"name": "boss",
+			"speed": 300
+		},
+		"crab": {
+			"atk": 2,
+			"customAnchor": {
+				"x": 0.15,
+				"y": 0.3
+			},
+			"def": 3,
+			"frames": {
+				"attack_down": [
+					43,
+					50
+				],
+				"attack_left": [
+					64,
+					70
+				],
+				"attack_right": [
+					8,
+					14
+				],
+				"attack_up": [
+					25,
+					32
+				],
+				"death": [
+					0,
+					7
+				],
+				"down": [
+					51,
+					56
+				],
+				"idle_down": [
+					57,
+					63
+				],
+				"idle_left": [
+					77,
+					80
+				],
+				"idle_right": [
+					21,
+					24
+				],
+				"idle_up": [
+					37,
+					42
+				],
+				"left": [
+					71,
+					76
+				],
+				"right": [
+					15,
+					20
+				],
+				"up": [
+					33,
+					36
+				]
+			},
+			"id": 5,
+			"life": 30,
+			"lootTable": {
+				"item-axe": 1,
+				"item-flask": 3,
+				"item-leatherarmor": 1
+			},
+			"name": "crab",
+			"speed": 300
+		},
+		"deathknight": {
+			"atk": 4,
+			"customAnchor": {
+				"x": 0.3,
+				"y": 0.45
+			},
+			"def": 8,
+			"frames": {
+				"attack_down": [
+					22,
+					26
+				],
+				"attack_left": [
+					33,
+					37
+				],
+				"attack_right": [
+					0,
+					4
+				],
+				"attack_up": [
+					11,
+					15
+				],
+				"down": [
+					27,
+					30
+				],
+				"idle_down": [
+					31,
+					32
+				],
+				"idle_left": [
+					42,
+					43
+				],
+				"idle_right": [
+					9,
+					10
+				],
+				"idle_up": [
+					20,
+					21
+				],
+				"left": [
+					38,
+					41
+				],
+				"right": [
+					5,
+					8
+				],
+				"up": [
+					16,
+					19
+				]
+			},
+			"id": 23,
+			"life": 75,
+			"lootTable": {
+				"item-burger": 9
+			},
+			"name": "deathknight",
+			"speed": 300
+		},
+		"eye": {
+			"atk": 4,
+			"customAnchor": {
+				"x": 0.1,
+				"y": 0.5
+			},
+			"def": 7,
+			"frames": {
+				"attack_down": [
+					47,
+					54
+				],
+				"attack_left": [
+					74,
+					79
+				],
+				"attack_right": [
+					0,
+					5
+				],
+				"attack_up": [
+					24,
+					27
+				],
+				"down": [
+					55,
+					59
+				],
+				"idle_down": [
+					60,
+					73
+				],
+				"idle_left": [
+					84,
+					97
+				],
+				"idle_rate": 10,
+				"idle_right": [
+					10,
+					23
+				],
+				"idle_up": [
+					33,
+					46
+				],
+				"left": [
+					80,
+					83
+				],
+				"right": [
+					6,
+					9
+				],
+				"up": [
+					28,
+					32
+				]
+			},
+			"id": 14,
+			"life": 70,
+			"lootTable": {
+				"item-flask": 3,
+				"item-redarmor": 1,
+				"item-redsword": 1
+			},
+			"name": "eye",
+			"speed": 300
+		},
+		"goblin": {
+			"atk": 3,
+			"customAnchor": {
+				"x": 0.1,
+				"y": 0.4
+			},
+			"def": 2,
+			"frames": {
+				"attack_down": [
+					17,
+					19
+				],
+				"attack_left": [
+					26,
+					28
+				],
+				"attack_right": [
+					0,
+					2
+				],
+				"attack_up": [
+					8,
+					10
+				],
+				"down": [
+					20,
+					23
+				],
+				"idle_down": [
+					24,
+					25
+				],
+				"idle_left": [
+					32,
+					33
+				],
+				"idle_right": [
+					6,
+					7
+				],
+				"idle_up": [
+					15,
+					16
+				],
+				"left": [
+					29,
+					31
+				],
+				"right": [
+					3,
+					5
+				],
+				"up": [
+					11,
+					14
+				]
+			},
+			"id": 1,
+			"life": 30,
+			"lootTable": {
+				"item-axe": 1,
+				"item-flask": 3,
+				"item-leatherarmor": 1
+			},
+			"name": "goblin",
+			"speed": 300
+		},
+		"ogre": {
+			"atk": 5,
+			"customAnchor": {
+				"x": 0.25,
+				"y": 0.6
+			},
+			"def": 4,
+			"frames": {
+				"attack_down": [
+					21,
+					23
+				],
+				"attack_left": [
+					32,
+					34
+				],
+				"attack_right": [
+					0,
+					2
+				],
+				"attack_up": [
+					11,
+					13
+				],
+				"down": [
+					24,
+					29
+				],
+				"idle_down": [
+					30,
+					31
+				],
+				"idle_left": [
+					41,
+					42
+				],
+				"idle_right": [
+					9,
+					10
+				],
+				"idle_up": [
+					19,
+					20
+				],
+				"left": [
+					35,
+					40
+				],
+				"right": [
+					2,
+					7
+				],
+				"up": [
+					14,
+					18
+				]
+			},
+			"id": 2,
+			"life": 50,
+			"lootTable": {
+				"item-burger": 1,
+				"item-flask": 3,
+				"item-morningstar": 1,
+				"item-platearmor": 1
+			},
+			"name": "ogre",
+			"speed": 300
+		},
+		"rat": {
+			"achievement": 2,
+			"atk": 1,
+			"def": 2,
+			"frames": {
+				"attack_down": [
+					27,
+					30
+				],
+				"attack_left": [
+					39,
+					44
+				],
+				"attack_right": [
+					4,
+					9
+				],
+				"attack_up": [
+					15,
+					18
+				],
+				"death": [
+					0,
+					3
+				],
+				"down": [
+					31,
+					34
+				],
+				"idle_down": [
+					35,
+					38
+				],
+				"idle_left": [
+					48,
+					49
+				],
+				"idle_right": [
+					13,
+					14
+				],
+				"idle_up": [
+					23,
+					26
+				],
+				"left": [
+					45,
+					47
+				],
+				"right": [
+					10,
+					12
+				],
+				"up": [
+					19,
+					22
+				]
+			},
+			"id": 3,
+			"life": 25,
+			"name": "rat",
+			"speed": 300
+		},
+		"skeleton": {
+			"achievement": 5,
+			"atk": 3,
+			"customAnchor": {
+				"x": 0.25,
+				"y": 0.5
+			},
+			"def": 3,
+			"frames": {
+				"attack_down": [
+					19,
+					21
+				],
+				"attack_left": [
+					29,
+					31
+				],
+				"attack_right": [
+					0,
+					2
+				],
+				"attack_up": [
+					9,
+					11
+				],
+				"down": [
+					22,
+					25
+				],
+				"idle_down": [
+					26,
+					28
+				],
+				"idle_left": [
+					36,
+					37
+				],
+				"idle_right": [
+					7,
+					8
+				],
+				"idle_up": [
+					16,
+					18
+				],
+				"left": [
+					32,
+					35
+				],
+				"right": [
+					3,
+					6
+				],
+				"up": [
+					12,
+					15
+				]
+			},
+			"id": 0,
+			"life": 50,
+			"lootTable": {
+				"item-axe": 1,
+				"item-flask": 3,
+				"item-mailarmor": 1
+			},
+			"name": "skeleton",
+			"speed": 300
+		},
+		"skeleton2": {
+			"atk": 5,
+			"customAnchor": {
+				"x": 0.25,
+				"y": 0.5
+			},
+			"def": 6,
+			"frames": {
+				"attack_down": [
+					18,
+					20
+				],
+				"attack_left": [
+					28,
+					30
+				],
+				"attack_right": [
+					0,
+					2
+				],
+				"attack_up": [
+					9,
+					11
+				],
+				"down": [
+					21,
+					24
+				],
+				"idle_down": [
+					25,
+					27
+				],
+				"idle_left": [
+					35,
+					36
+				],
+				"idle_right": [
+					7,
+					8
+				],
+				"idle_up": [
+					16,
+					17
+				],
+				"left": [
+					31,
+					34
+				],
+				"right": [
+					3,
+					6
+				],
+				"up": [
+					12,
+					15
+				]
+			},
+			"id": 16,
+			"life": 65,
+			"lootTable": {
+				"item-bluesword": 1,
+				"item-flask": 3,
+				"item-platearmor": 1
+			},
+			"name": "skeleton",
+			"speed": 300
+		},
+		"snake": {
+			"atk": 3,
+			"customAnchor": {
+				"x": 0.1,
+				"y": 0.3
+			},
+			"def": 2,
+			"frames": {
+				"attack_down": [
+					26,
+					30
+				],
+				"attack_left": [
+					41,
+					45
+				],
+				"attack_right": [
+					0,
+					4
+				],
+				"attack_up": [
+					13,
+					17
+				],
+				"down": [
+					31,
+					34
+				],
+				"idle_down": [
+					35,
+					40
+				],
+				"idle_left": [
+					50,
+					53
+				],
+				"idle_right": [
+					9,
+					12
+				],
+				"idle_up": [
+					22,
+					25
+				],
+				"left": [
+					46,
+					49
+				],
+				"right": [
+					5,
+					8
+				],
+				"up": [
+					18,
+					21
+				]
+			},
+			"id": 15,
+			"life": 40,
+			"lootTable": {
+				"item-flask": 4,
+				"item-mailarmor": 1,
+				"item-morningstar": 1
+			},
+			"name": "snake",
+			"speed": 300
+		},
+		"spectre": {
+			"atk": 5,
+			"customAnchor": {
+				"x": 0.25,
+				"y": 0.5
+			},
+			"def": 10,
+			"frames": {
+				"attack_down": [
+					36,
+					41
+				],
+				"attack_left": [
+					48,
+					55
+				],
+				"attack_right": [
+					0,
+					7
+				],
+				"attack_up": [
+					14,
+					19
+				],
+				"down": [
+					42,
+					45
+				],
+				"idle_down": [
+					46,
+					47
+				],
+				"idle_left": [
+					60,
+					61
+				],
+				"idle_right": [
+					12,
+					13
+				],
+				"idle_up": [
+					28,
+					35
+				],
+				"left": [
+					56,
+					59
+				],
+				"right": [
+					8,
+					11
+				],
+				"up": [
+					20,
+					27
+				]
+			},
+			"id": 4,
+			"life": 80,
+			"lootTable": {
+				"item-flask": 3,
+				"item-redarmor": 1,
+				"item-redsword": 1
+			},
+			"name": "spectre",
+			"speed": 300
+		}
+	},
+	"npc": {
+		"agent": {
+			"atlasKey": "agent",
+			"customAnchor": {
+				"x": -0.1,
+				"y": 0.25
+			},
+			"dialogue": [
+				"Hi.",
+				"If the sound effects annoy you, you can mute them by hitting ALT+F4."
+			],
+			"frame": 0,
+			"nbFrames": 2
+		},
+		"beachnpc": {
+			"atlasKey": "beachnpc",
+			"dialogue": [
+				"Sometimes, when you kill an entire group of monsters,",
+				"A hidden chest appears...",
+				"Someimtes you just have to live knowing you killed a lot of innocent people."
+			],
+			"frame": 0,
+			"nbFrames": 2
+		},
+		"coder": {
+			"atlasKey": "coder",
+			"dialogue": [
+				"I am here to find bugs. Software bugs.",
+				"If you find any, kill them with fire."
+			],
+			"frame": 0,
+			"nbFrames": 2
+		},
+		"desertnpc": {
+			"atlasKey": "desertnpc",
+			"dialogue": [
+				"If I were you, I would go no further.",
+				"An ancient evil lurks ahead...",
+				"Or go ahead, whatever.",
+				"I'm an NPC, not a cop."
+			],
+			"frame": 0,
+			"nbFrames": 2
+		},
+		"guard": {
+			"atlasKey": "guard",
+			"customAnchor": {
+				"x": 0.25,
+				"y": 0.25
+			},
+			"dialogue": [
+				"Take care outside of the village.",
+				"There are monsters afoot!",
+				"Though some might say man is the true monster"
+			],
+			"frame": 0,
+			"nbFrames": 2
+		},
+		"king": {
+			"atlasKey": "king",
+			"customAnchor": {
+				"x": 0.1,
+				"y": 0.3
+			},
+			"dialogue": [
+				"Brave adventurer, venture north and slay the Skeleton king to save us all!",
+				"You'll be rewarded in cookies!",
+				"Maybe even flags!"
+			],
+			"frame": 0,
+			"nbFrames": 2
+		},
+		"nyan": {
+			"atlasKey": "nyan",
+			"customAnchor": {
+				"x": 0.5,
+				"y": 0.25
+			},
+			"dialogue": [
+				"My rainbow tail is comprised entirely of the souls of BMW drivers that don't use their turn signal.",
+				"It is really long",
+				"flag-NyanNyanNyanBOO"
+			],
+			"frame": 0,
+			"nbFrames": 6,
+			"rate": 9
+		},
+		"octocat": {
+			"atlasKey": "octocat",
+			"customAnchor": {
+				"x": 0.25,
+				"y": 0.25
+			},
+			"dialogue": [
+				"glub",
+				"glub!",
+				"double-glub"
+			],
+			"frame": 0,
+			"nbFrames": 4
+		},
+		"priest": {
+			"atlasKey": "priest",
+			"dialogue": [
+				"Hello there!",
+				"You can press enter to open the chat bar and talk to other players.",
+				"You can do the same by pressing the bubble icon at the bottom right of the screen."
+			],
+			"frame": 0,
+			"nbFrames": 2
+		},
+		"rick": {
+			"atlasKey": "rick",
+			"dialogue": [
+				"Hi. I'm Rick.",
+				"I guess you want a flag, don't you?",
+				"Fine - flag-NoPicklesHere"
+			],
+			"frame": 0,
+			"nbFrames": 4
+		},
+		"scientist": {
+			"atlasKey": "phaser",
+			"customAnchor": {
+				"x": -0.1,
+				"y": 0.25
+			},
+			"dialogue": [
+				"This game was made using the Phaser game engine.",
+				"This CTF was made using a demonic engine of the blackest souls.",
+				"Have a great day!"
+			],
+			"frame": 0,
+			"nbFrames": 1
+		},
+		"sorcerer": {
+			"atlasKey": "sorcerer",
+			"customAnchor": {
+				"x": 0.16,
+				"y": 0.25
+			},
+			"dialogue": [
+				"Hi young one!",
+				"If you press the cup icon at the bottom right of the sceen, you can see what achievements are left for you to unlock!",
+				"If you press the X in the far top right, you get your soul back."
+			],
+			"frame": 0,
+			"nbFrames": 6
+		},
+		"villagegirl": {
+			"atlasKey": "villagegirl",
+			"dialogue": [
+				"Enjoy this game made with Phaser, Node.js and Socket.io, and pure evil"
+			],
+			"frame": 0,
+			"nbFrames": 2
+		},
+		"villager": {
+			"atlasKey": "villager",
+			"customAnchor": {
+				"x": -0.1,
+				"y": 0.25
+			},
+			"dialogue": [
+				"Notice how there is no music?",
+				"Rumor has it that the developer went mad from repeatedly hearing the same musics and removed them all...",
+				"He might have also started the apocalypse."
+			],
+			"frame": 0,
+			"nbFrames": 2
+		}
+	},
+	"scenery": {
+		"scenery": [
+			{
+				"frame": 747,
+				"id": 747,
+				"nbFrames": 2
+			},
+			{
+				"frame": 240,
+				"id": 240,
+				"nbFrames": 3
+			},
+			{
+				"frame": 605,
+				"id": 159,
+				"nbFrames": 3
+			},
+			{
+				"frame": 625,
+				"id": 158,
+				"nbFrames": 2
+			},
+			{
+				"frame": 645,
+				"id": 157,
+				"nbFrames": 2
+			},
+			{
+				"frame": 725,
+				"id": 725,
+				"nbFrames": 4
+			},
+			{
+				"frame": 1040,
+				"id": 1040,
+				"nbFrames": 4
+			},
+			{
+				"frame": 1060,
+				"id": 1060,
+				"nbFrames": 4
+			},
+			{
+				"frame": 1256,
+				"id": 1256,
+				"nbFrames": 4
+			},
+			{
+				"frame": 1290,
+				"id": 1290,
+				"nbFrames": 4
+			},
+			{
+				"frame": 1310,
+				"id": 1310,
+				"nbFrames": 4
+			},
+			{
+				"frame": 1330,
+				"id": 1330,
+				"nbFrames": 4
+			},
+			{
+				"frame": 1400,
+				"id": 1400,
+				"nbFrames": 10
+			},
+			{
+				"frame": 1410,
+				"id": 1410,
+				"nbFrames": 7
+			},
+			{
+				"frame": 1420,
+				"id": 1420,
+				"nbFrames": 7
+			},
+			{
+				"frame": 1427,
+				"id": 1427,
+				"nbFrames": 8
+			},
+			{
+				"frame": 1500,
+				"id": 1500,
+				"nbFrames": 3
+			},
+			{
+				"frame": 1520,
+				"id": 1520,
+				"nbFrames": 3
+			},
+			{
+				"frame": 1720,
+				"id": 1720,
+				"nbFrames": 3
+			},
+			{
+				"frame": 1740,
+				"id": 1740,
+				"nbFrames": 3
+			},
+			{
+				"frame": 1746,
+				"id": 1746,
+				"nbFrames": 3
+			},
+			{
+				"frame": 1780,
+				"id": 1780,
+				"nbFrames": 19
+			},
+			{
+				"frame": 1800,
+				"id": 1800,
+				"nbFrames": 19
+			},
+			{
+				"frame": 1920,
+				"id": 1920,
+				"nbFrames": 15
+			}
+		]
+	},
+	"sounds": {
+		"resources": [
+			"sounds.ogg",
+			"sounds.m4a",
+			"sounds.mp3",
+			"sounds.ac3"
+		],
+		"spritemap": {
+			"achievement": {
+				"end": 0.860204081632653,
+				"loop": false,
+				"start": 0
+			},
+			"chat": {
+				"end": 2.2367573696145127,
+				"loop": false,
+				"start": 2
+			},
+			"chest": {
+				"end": 4.272879818594104,
+				"loop": false,
+				"start": 4
+			},
+			"death": {
+				"end": 6.962721088435374,
+				"loop": false,
+				"start": 6
+			},
+			"heal": {
+				"end": 8.370204081632654,
+				"loop": false,
+				"start": 8
+			},
+			"hit1": {
+				"end": 10.11251700680272,
+				"loop": false,
+				"start": 10
+			},
+			"hurt": {
+				"end": 12.050589569160998,
+				"loop": false,
+				"start": 12
+			},
+			"kill2": {
+				"end": 14.340748299319728,
+				"loop": false,
+				"start": 14
+			},
+			"noloot": {
+				"end": 16.766938775510205,
+				"loop": false,
+				"start": 16
+			}
+		}
+	},
+	"texts": {
+		"create": "Creating world ...",
+		"db_error": "No match found in the database for your character; please refresh page and create a new one!",
+		"help_chat": "Press enter to display the chat bar and talk to other players (be polite!)",
+		"help_move": "Left click or tap to move, talk to NPC, pick up items and attack monsters",
+		"help_save": "Your progress is automatically saved on a regular basis",
+		"orient": "Please rotate your device in landscape position"
+	}
 }
