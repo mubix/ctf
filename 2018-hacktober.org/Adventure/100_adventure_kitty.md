@@ -12,6 +12,6 @@ https://hacktoberquest.h4110w33n.com/
 
 flag-NyanNyanNyanBOO
 
-![](images/100_adventure_kitty_game.png)
+![](img/100_adventure_kitty_game.png)
 
-![](images/100_adventure_kitty_json.png)
+![](img/100_adventure_kitty_json.png)

@@ -14,8 +14,8 @@ https://hacktoberquest.h4110w33n.com/
 
 flag-GollumWasTheHero
 
-![](images/200_find_frodos_sword_game.png)
+![](img/200_find_frodos_sword_game.png)
 
-![](images/200_find_frodos_sword_flag.png)
+![](img/200_find_frodos_sword_flag.png)
 
-![](images/200_find_frodos_sword_json.png)
+![](img/200_find_frodos_sword_json.png)
