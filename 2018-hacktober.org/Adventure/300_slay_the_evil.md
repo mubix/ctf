@@ -1,6 +1,6 @@
 # Slay The Evil
 
-## Points 300 
+## Points 300
 
 Slay the greatest Evil in the land.
 
@@ -12,17 +12,16 @@ https://hacktoberquest.h4110w33n.com/
 
 (Message the Support Slack if you are the first to accomplish to task - you will receive an additional 100 points)
 
-
 ## Answer
 
 flag-BlingBlingBaby
 
-![](images/300_slay_the_evil_boss.png)
+![](img/300_slay_the_evil_boss.png)
 
-![](images/300_slay_the_evil_win.png)
+![](img/300_slay_the_evil_win.png)
 
-![](images/300_slay_the_evil_prizes.png)
+![](img/300_slay_the_evil_prizes.png)
 
-![](images/300_slay_the_evil_flag.png)
+![](img/300_slay_the_evil_flag.png)
 
-![](images/300_slay_the_evil_json.png)
+![](img/300_slay_the_evil_json.png)

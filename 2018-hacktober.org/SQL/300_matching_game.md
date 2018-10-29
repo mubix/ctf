@@ -11,3 +11,25 @@ Using the westridge database, submit the first name of the student whose first n
 You are limited to 20 attempts.
 
 ## Answer
+
+Bailey
+
+- login to database c.f. #sql task:Tables
+
+```
+mysql> SELECT firstName FROM students;
++-------------+
+| firstName   |
++-------------+
+| Simeon      |
+| Prince      |
+| Emmett      |
+| ...         |
+| Daniella    |
+| Lamar       |
+| Shaniya     |
++-------------+
+4281 rows in set (0.85 sec)
+```
+
+then use "Regular Expressions" to determine answer

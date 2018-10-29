@@ -12,4 +12,4 @@ https://hacktoberquest.h4110w33n.com/
 
 flag-NoPicklesHere
 
-![](images/100_wubba_lubba_json.png)
+![](img/100_wubba_lubba_json.png)

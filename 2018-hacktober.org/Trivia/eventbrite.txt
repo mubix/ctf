@@ -1,0 +1,8 @@
+DESCRIPTION
+@ https://hostile.site
+
+Compete amongst the best at this year's National Cybersecurity Awareness Month (NCSAM) CTF! Join the Midwest Cyber Center (MC²) online anywhere worldwide for a week of cybersecurity games and challenges involving exploitation, databases, web penetration, DFIR, cryptography, programming, scripting, recon, steganography, and more!
+
+The virtual competition will open up Tuesday, October 9th at 12:00 am (a link to the competition will be emailed to participants) and conclude Wednesday October 17th at 11:59pm. Award ceremony to announce first, second, and third place will take place Thursday October 18th from 12pm - 1pm at T-REX (911 Washington Ave, STE #5, St. Louis, MO 63101) in the Morgan Stanley Event Space. This event is free and open to any adult: college student, military, contractor, and civilian. Compete on teams up to 4 people for bragging rights and prizes.
+
+National Cybersecurity Awareness Month (NCSAM) - observed every October - was created as a collaborative effort between government and industry to ensure every American has the resources they need to stay safer and more secure online.
